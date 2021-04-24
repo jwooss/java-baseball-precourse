@@ -25,6 +25,10 @@ public class BaseballNumber {
         return new BaseballNumber(number);
     }
 
+    public static BaseballNumber valueOf(String number) {
+        return new BaseballNumber(Integer.parseInt(number));
+    }
+
     public int getValue() {
         return value;
     }

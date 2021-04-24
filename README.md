@@ -8,7 +8,8 @@
 - BaseballNumber
   - [x] 1부터 9의 숫자만 허용한다.
 - GameSignal
-  - [ ] 1과 2의 숫자만 허용한다.
+  - [x] 1이면 게임을 다시 실행한다.
+  - [x] 1이외의 숫자는 게임을 종료한다.
 - NumberGenerator
   - [ ] 1부터 9까지 숫자 3개를 생성한다.
 - BaseballGame
